@@ -5,7 +5,7 @@ import { Counter } from './Counter';
 export function App() {
   return (
     <>
-      <Counter />
+      <Counter initialValue={10} />
     </>
   );
 }
